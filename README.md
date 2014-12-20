@@ -12,6 +12,8 @@ npm i gulp-drafts --save
 
 ## Usage
 
+_All of the following examples should work in any combination with one another._
+
 ### Ignore files using glob patterns
 
 ```js
@@ -58,6 +60,24 @@ gulp.task('blog', function () {
     .pipe(gulp.dest('dist'));
 });
 ```
+
+### Verb example
+
+Everything works the same with [verb] and [assemble].
+
+```js
+var verb = require('verb');
+var drafts = require('verb-drafts');
+
+verb.task('blog', function () {
+  verb.src('posts/**/*.md')
+    // ignore files with the `{foo: ...}` or `{bar: {baz: ...}}`
+    // properties
+    .pipe(drafts({props: ['foo', 'bar.baz']}))
+    .pipe(verb.dest('dist'));
+});
+```
+
 
 ## Run tests
 
