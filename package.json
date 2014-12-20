@@ -1,0 +1,49 @@
+{
+  "name": "gulp-drafts",
+  "description": "Gulp plugin for skipping files marked as drafts.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/gulp-drafts",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/gulp-drafts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/gulp-drafts/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/jonschlinkert/gulp-drafts/blob/master/LICENSE-MIT"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "dependencies": {
+    "get-first": "^0.1.1",
+    "kind-of": "^0.1.2",
+    "multimatch": "^1.0.1",
+    "through2": "^0.6.3"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "vinyl": "^0.4.6"
+  },
+  "keywords": [
+    "assemble",
+    "blog",
+    "draft",
+    "drafts",
+    "gulpplugin",
+    "post",
+    "template",
+    "verb"
+  ]
+}
