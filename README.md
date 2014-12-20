@@ -1,6 +1,6 @@
 # gulp-drafts [![NPM version](https://badge.fury.io/js/gulp-drafts.svg)](http://badge.fury.io/js/gulp-drafts)
 
-> Gulp plugin for skipping files marked as drafts.
+> Gulp plugin for removing files flagged as drafts. Can also be used as an assemble or verb plugin.
 
 The filtering part of the plugin was inspired by [gulp-filter].
 

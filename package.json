@@ -1,6 +1,6 @@
 {
   "name": "gulp-drafts",
-  "description": "Gulp plugin for skipping files marked as drafts.",
+  "description": "Gulp plugin for removing files flagged as drafts. Can also be used as an assemble or verb plugin.",
   "version": "0.1.0",
   "homepage": "https://github.com/jonschlinkert/gulp-drafts",
   "author": {
@@ -38,12 +38,14 @@
   },
   "keywords": [
     "assemble",
+    "assembleplugin",
     "blog",
     "draft",
     "drafts",
     "gulpplugin",
     "post",
     "template",
-    "verb"
+    "verb",
+    "verbplugin"
   ]
 }
