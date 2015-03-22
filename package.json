@@ -16,20 +16,20 @@
   },
   "license": {
     "type": "MIT",
-    "url": "https://github.com/jonschlinkert/gulp-drafts/blob/master/LICENSE-MIT"
+    "url": "https://github.com/jonschlinkert/gulp-drafts/blob/master/LICENSE"
   },
+  "files": [
+    "index.js"
+  ],
   "main": "index.js",
   "engines": {
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "mocha -R spec"
+    "test": "mocha"
   },
   "dependencies": {
-    "get-first": "^0.1.1",
-    "kind-of": "^0.1.2",
-    "multimatch": "^1.0.1",
-    "through2": "^0.6.3"
+    "micromatch": "^2.1.0"
   },
   "devDependencies": {
     "mocha": "*",

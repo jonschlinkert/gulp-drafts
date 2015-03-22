@@ -1,8 +1,8 @@
 /*!
  * gulp-drafts <https://github.com/jonschlinkert/gulp-drafts>
  *
- * Copyright (c) 2014 Jon Schlinkert, contributors.
- * Licensed under the MIT license.
+ * Copyright (c) 2014-2015, Jon Schlinkert.
+ * Licensed under the MIT License.
  */
 
 'use strict';
@@ -10,7 +10,7 @@
 var get = require('get-first');
 var typeOf = require('kind-of');
 var through = require('through2');
-var mm = require('multimatch');
+var mm = require('micromatch');
 
 module.exports = function drafts(pattern, opts) {
   opts = opts || {};
