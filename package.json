@@ -1,7 +1,7 @@
 {
   "name": "gulp-drafts",
   "description": "Gulp plugin for removing files flagged as drafts. Can also be used as an assemble or verb plugin.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/jonschlinkert/gulp-drafts",
   "author": {
     "name": "Jon Schlinkert",
@@ -29,11 +29,13 @@
     "test": "mocha"
   },
   "dependencies": {
-    "micromatch": "^2.1.0"
+    "get-first": "^0.1.1",
+    "kind-of": "^1.1.0",
+    "micromatch": "^2.1.0",
+    "through2": "^0.6.3"
   },
   "devDependencies": {
     "mocha": "*",
-    "should": "*",
     "vinyl": "^0.4.6"
   },
   "keywords": [
