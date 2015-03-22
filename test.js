@@ -1,5 +1,6 @@
 'use strict';
 
+/* deps:mocha */
 var File = require('vinyl');
 var assert = require('assert');
 var drafts = require('./');
